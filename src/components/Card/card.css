@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'tajwal';
+    src: url('../../Assets/fonts/Tajawal-Regular.ttf');
+}
+
+#user-card {
+    font-family: tajwal;
+    font-size: 1.5em;
+}
+
+.ramadan-msg {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 26px;
+    background-color: #FFFFFF;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    text-align: center;
+    height: 100%;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+
+@media screen and (max-width: 576px) {
+    .display-4 {
+        font-size: 36px;
+    }
+}
